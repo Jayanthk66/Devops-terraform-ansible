@@ -11,7 +11,7 @@ provider "aws" {
 region = "us-west-1"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-026257f4f39c28af8"
+  ami = "ami-0bb4c991fa89d4b9b"
   instance_type = "t2.micro"
   key_name = "jayanth-import"
 
